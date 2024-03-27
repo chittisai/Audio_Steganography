@@ -1,0 +1,71 @@
+section{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    padding: 40px 0px;
+}
+
+form{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 80px 70px 60px 70px;
+    margin: 0px 20px;
+    min-height: 75vh;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.section-heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.download a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(19, 186, 69);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.text-output-msg{
+    width: 100%;
+    border: 2px dotted black;
+    background-color:azure ;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-6 {
+    flex-grow: 1; /* Allow columns to grow equally */
+}
+
+.encode,
+.decode {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure forms take up full height of parent */
+}
+
+.form-group {
+    flex-grow: 1; /* Allow form groups to expand vertically */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.form-control{
+    margin: 0;
+}
