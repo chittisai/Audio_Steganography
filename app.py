@@ -90,7 +90,7 @@ def decode():
 def send_email(mail, key):
     sender_email = 'chittisai.t@gmail.com'
     receiver_email = mail
-    password = "mbulankywvwolfhw"
+    password = "your_password"
     
     msg = MIMEMultipart()
     msg['From'] = sender_email
